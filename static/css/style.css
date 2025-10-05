@@ -1,0 +1,16 @@
+:root {
+  --ea-primary: #0ea5e9; /* sky-500 */
+  --ea-bg: #f0f9ff;     /* sky-50 */
+}
+
+body.bg-gradient { background: linear-gradient(180deg, var(--ea-bg), #ffffff); }
+.navbar .navbar-brand { letter-spacing: 0.3px; }
+.hero-card { border-left: 6px solid var(--ea-primary); border-radius: .5rem; }
+.btn-primary { background-color: var(--ea-primary); border-color: var(--ea-primary); }
+.btn-outline-primary { color: var(--ea-primary); border-color: var(--ea-primary); }
+.btn-outline-primary:hover { background-color: var(--ea-primary); border-color: var(--ea-primary); }
+.form-label { font-weight: 600; }
+.invalid-feedback { display: block; }
+.hero-list li { margin-bottom: 6px; }
+.badge { border-radius: .375rem; }
+
